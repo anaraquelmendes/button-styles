@@ -14,16 +14,16 @@ div {
 
 .btn {
   padding: .3em .75em;
-  display: block;
+  display: inline-block;
   border-radius: 8px;
   color: #fff;
   text-decoration: none;
   font-size: 1.125rem;
   background-color: #000;
-  margin:
+
 }
 
-.btn hover {
+.btn:hover {
   background-color: #666;
 }
 
@@ -37,15 +37,30 @@ div {
 
 .btn-subtle {
   background-color: #ccc;
+  border: 3px solid #ccc;
 }
 
-.bt-warning {
-  back-ground color: #f33
+.btn-warning {
+  background-color: #f33;
+  border: 3px solid #f33;
+}
+
+.btn-warning:hover {
+  background-color: #933;
 }
 
 .btn-ghost {
   background-color: #fff;
-  border-color:#000;
   color: #000;
-  border-width: medium;
+  border: 3px solid #000;
+}
+
+.btn-primary {
+  background-color: #333;
+  color: #fff;
+  border: 3px solid #333;
+}
+
+.btn-primary:hover  {
+  background-color: #666;
 }
